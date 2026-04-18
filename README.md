@@ -45,3 +45,9 @@ The automated test performs the following steps:
 4. Navigate to: src/test/kotlin
 5. Open TickSettingBox
 6. Click the run icon
+
+## ⚠️ Notes
+
+- This project uses `LATEST-EAP-SNAPSHOT` dependencies for compatibility with the JetBrains IDE Starter framework.
+- The IDE may open, close, and reopen during execution. This is expected behavior during project preparation and test execution.
+- The first run may take a few minutes to download dependencies and set up the IDE environment.
