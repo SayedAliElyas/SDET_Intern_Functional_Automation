@@ -4,7 +4,6 @@ plugins {
 
 group = "org.example"
 version = "1.0-SNAPSHOT"
-val jbStarterVersion = "243.26574.91"
 
 repositories {
     mavenCentral()
@@ -16,12 +15,12 @@ repositories {
 
 dependencies {
     // Starter + Driver (REQUIRED)
-    testImplementation("com.jetbrains.intellij.tools:ide-starter-squashed:$jbStarterVersion")
-    testImplementation("com.jetbrains.intellij.tools:ide-starter-junit5:$jbStarterVersion")
-    testImplementation("com.jetbrains.intellij.tools:ide-starter-driver:$jbStarterVersion")
-    testImplementation("com.jetbrains.intellij.driver:driver-client:$jbStarterVersion")
-    testImplementation("com.jetbrains.intellij.driver:driver-sdk:$jbStarterVersion")
-    testImplementation("com.jetbrains.intellij.driver:driver-model:$jbStarterVersion")
+    testImplementation("com.jetbrains.intellij.tools:ide-starter-squashed:LATEST-EAP-SNAPSHOT")
+    testImplementation("com.jetbrains.intellij.tools:ide-starter-junit5:LATEST-EAP-SNAPSHOT")
+    testImplementation("com.jetbrains.intellij.tools:ide-starter-driver:LATEST-EAP-SNAPSHOT")
+    testImplementation("com.jetbrains.intellij.driver:driver-client:LATEST-EAP-SNAPSHOT")
+    testImplementation("com.jetbrains.intellij.driver:driver-sdk:LATEST-EAP-SNAPSHOT")
+    testImplementation("com.jetbrains.intellij.driver:driver-model:LATEST-EAP-SNAPSHOT")
 
     // JUnit (REQUIRED)
     val junitBom = platform("org.junit:junit-bom:5.12.2")
