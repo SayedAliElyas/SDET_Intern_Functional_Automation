@@ -8,6 +8,7 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven(url = "https://cache-redirector.jetbrains.com/intellij-dependencies")
+    maven(url = "https://www.jetbrains.com/intellij-repository/snapshots")
     maven(url = "https://www.jetbrains.com/intellij-repository/releases")
     maven(url = "https://download.jetbrains.com/teamcity-repository")
     maven(url = "https://cache-redirector.jetbrains.com/packages.jetbrains.team/maven/p/grazi/grazie-platform-public")
