@@ -38,7 +38,7 @@ The automated test performs the following steps:
 
 1. Clone the repository:
    ```bash
-   git clone <your-repo-link>
+   git clone https://github.com/SayedAliElyas/SDET_Intern_Functional_Automation.git
    
 2. Open the project in IntelliJ IDEA
 3. Wait for Gradle to sync
