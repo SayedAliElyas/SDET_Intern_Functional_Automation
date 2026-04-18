@@ -43,5 +43,5 @@ The automated test performs the following steps:
 2. Open the project in IntelliJ IDEA
 3. Wait for Gradle to sync
 4. Navigate to: src/test/kotlin
-5. Open TickSettingBoxTest
+5. Open TickSettingBox
 6. Click the run icon
